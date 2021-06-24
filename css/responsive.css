@@ -21,6 +21,10 @@
         padding: 20px;
     }
 
+    .header__menu-link {
+        font-size: 20px;
+    }
+
     .contact-phone__wrapper.top {
         margin-left: auto;
     }
@@ -56,7 +60,7 @@
     }
 
     .section-info__column {
-        padding-bottom: 50px;
+        padding-bottom: 60px;
     }
 
     .contact__content-inner {
@@ -87,7 +91,7 @@
         display: none;
     }
 
-    .header__content-text2 {
+    .header__text2 {
         font-size: 48px;
     }
 

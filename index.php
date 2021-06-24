@@ -23,7 +23,7 @@
 
                 <input id="chk" type="checkbox">
                 <label class="show-menu-btn hidden" for="chk">
-                    <i style="color: white" class="fas fa-bars"></i>
+                    <i class="color-white fas fa-bars"></i>
                 </label>
 
                 <div class="header__menu">
@@ -51,11 +51,11 @@
                         <li class="header__menu-item">
                             <a class="header__menu-link" href="#">Contacts</a>
                         </li>
-
-                        <label class="hide-menu-btn hidden" for="chk">
-                            <i style="color: white" class="fas fa-times"></i>
-                        </label>
                     </ul>
+
+                    <label class="hide-menu-btn hidden" for="chk">
+                        <i class="color-white fas fa-times"></i>
+                    </label>
                 </div>
 
                 <div class="contact-phone__wrapper top">
@@ -76,18 +76,18 @@
         <div class="container">
             <div class="header__content-inner">
                 <div class="header__content-text">
-                    <p class="header__content-text1">Winning for you</p>
-                    <p class="header__content-text2">Top Accident Lawyers in Connecticut</p>
-                    <p class="header__content-text3">70% of those injured at work do not receive adequate compensation.
+                    <p class="header__text1">Winning for you</p>
+                    <p class="header__text2">Top Accident Lawyers in Connecticut</p>
+                    <p class="header__text3">70% of those injured at work do not receive adequate compensation.
                         The participation of a lawyer will help you increase the amount of compensation by 3 times.</p>
                 </div>
 
                 <div class="header__content-form-inner">
-                    <div class="header__content-form-text">
+                    <div class="header__form-text">
                         Call <span>203-361-3738</span> or fill out the form below to discuss your case
                     </div>
 
-                    <form class="header__content-form" action="main.php" method="POST">
+                    <form class="header__form" action="main.php" method="POST">
                         <input type="text" name="name" placeholder="Name">
                         <input type="email" name="email" placeholder="Email">
                         <input type="number" name="phone" placeholder="Phone Number">

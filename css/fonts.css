@@ -1,7 +1,7 @@
 @font-face {
-// название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)
+// назва шрифта
 font-family: "LotaGrotesque";
-// адрес шрифта и тип
+// адрес шрифта  та тип
 src: url("../Assets/Fonts/Los Andes  Lota Grotesque Alt 1 Semi Bold.otf") format("OpenType");
     font-style: normal;
     font-weight: normal;
