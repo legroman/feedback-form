@@ -10,7 +10,7 @@ $message = "
         Пошта: $email \n
         Текст: $text";
 
-$to = "legromant@gmail.com";
+$to = "nick@ukieweb.com";
 $subject = "Заявка з сайту";
 $headers = "From: $email" . "\r\n" .
     "Reply-To: $email" . "\r\n" .
