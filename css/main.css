@@ -277,9 +277,10 @@ input, textarea {
     line-height: 30px;
 }
 
-.footer__content-social {
+.footer__social-link i {
     font-size: 14px;
     padding: 8px 15px 0 0;
+    color: white;
 }
 
 .footer__bottom {

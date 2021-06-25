@@ -187,9 +187,9 @@
 
                 <div class="footer__content-column">
                     <p class="footer__content-title">Social</p>
-                    <i class="footer__content-social fab fa-linkedin-in"></i>
-                    <i class="footer__content-social fab fa-twitter"></i>
-                    <i class="footer__content-social fab fa-facebook-square"></i>
+                    <a class="footer__social-link" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="footer__social-link" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="footer__social-link" href="#"><i class="fab fa-facebook-square"></i></a>
                 </div>
             </div>
         </div>
