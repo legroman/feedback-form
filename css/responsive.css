@@ -25,6 +25,10 @@
         font-size: 20px;
     }
 
+    .header__menu-link:before {
+        top: 25px;
+    }
+
     .contact-phone__wrapper.top {
         margin-left: auto;
     }

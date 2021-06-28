@@ -88,10 +88,10 @@
                     </div>
 
                     <form class="header__form" action="main.php" method="POST">
-                        <input type="text" name="name" placeholder="Name">
-                        <input type="email" name="email" placeholder="Email">
-                        <input type="number" name="phone" placeholder="Phone Number">
-                        <textarea name="text" rows="4" placeholder="Tell us about your situation"></textarea>
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="number" name="phone" placeholder="Phone Number" required>
+                        <textarea name="text" rows="4" placeholder="Tell us about your situation" required></textarea>
 
                         <button type="submit">Submit for Free Consultation</button>
                     </form>
@@ -205,6 +205,25 @@
     </div>
 </footer>
 
+<!-- popup -->
+<div class="overlay"></div>
+<div class="popup" data-show="<?php print($_GET['popup']) ?>">
+    <div class="popup__inner">
+        <?php
+        $_GET['status'] === 'ok' ?
+            print "<i class=\"far fa-check-circle\"></i>" :
+            print "<i class=\"fas fa-exclamation-triangle\" style='color: red'></i>"
+        ?>
+
+        <h2 class="popup__title"><?php print($_GET['title']) ?></h2>
+        <p class="popup__text"><?php print($_GET['text']) ?></p>
+
+        <button class="popup__btn-close">ok</button>
+    </div>
+    <a class="close" title="Закрити"></a>
+</div>
+
 <script src="https://kit.fontawesome.com/999a128e58.js" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
